@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-screen flex justify-center items-center">
+  <div class="w-full h-screen flex justify-center items-center col-span-4">
     <div
       class="bg-[#00763A] w-[400px] shadow-black shadow-md p-5 grid grid-cols-1 gap-7 font-sans text-white rounded"
     >
@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-// definePageMeta({ layout: "admin" });
+definePageMeta({ layout: "admin" });
 const handleSubmit = (e) => {
   e.preventDefault();
 };
