@@ -7,22 +7,30 @@
         <div class=""><p class="font-bold text-xl">FSIBL</p></div>
 
         <ul class="flex h-full text-lg">
-          <li class="my-auto pr-4 hover:bg-[#15442c]">
-            <NuxtLink to="/api/v1">Home</NuxtLink>
-          </li>
-          <li class="pr-4 my-auto hover:bg-[#15442c]">
-            <NuxtLink to="/api/v1/otp">About Us</NuxtLink>
-          </li>
-          <li class="pr-4 my-auto hover:bg-[#15442c]">
-            <NuxtLink to="/api/v1/form">Contact Us</NuxtLink>
-          </li>
-          <li class="my-auto hover:bg-[#15442c]">
-            <NuxtLink to="/api/v1/form">Log Out</NuxtLink>
-          </li>
+          <div class="h-full flex hover:bg-[#13442b]">
+            <li class="my-auto px-2">
+              <NuxtLink to="/api/v1">Home</NuxtLink>
+            </li>
+          </div>
+          <div class="h-full flex hover:bg-[#13442b]">
+            <li class="my-auto px-2">
+              <NuxtLink to="/api/v1/otp">About Us</NuxtLink>
+            </li>
+          </div>
+          <div class="h-full flex hover:bg-[#13442b]">
+            <li class="my-auto px-2">
+              <NuxtLink to="/api/v1/form">Contact Us</NuxtLink>
+            </li>
+          </div>
+          <div class="h-full flex hover:bg-[#13442b]">
+            <li class="my-auto px-2">
+              <NuxtLink to="/api/v1">Log out</NuxtLink>
+            </li>
+          </div>
         </ul>
       </nav>
     </div>
-    <div class="grid grid-cols-5">
+    <div class="container grid grid-cols-5">
       <div class="col-span-1 shadow-2xl">
         <div class="my-4 flex flex-col items-center">
           <img
@@ -34,7 +42,7 @@
         </div>
         <hr />
         <div class="py-3">
-          <NuxtLink class="block text-center">Account Info</NuxtLink>
+          <NuxtLink class="block text-center">Manage Account</NuxtLink>
         </div>
         <hr />
         <div class="py-3">
